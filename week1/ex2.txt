@@ -1,0 +1,105 @@
+    1  ./configure
+    2  make
+    3  sudo apt install make
+    4  make
+    5  curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+    6  sudo apt install curl
+    7  curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+    8  sudo apt-get install -y nodejs
+    9  sudo ./msi-keyboard-gui 
+   10  ./msi-keyboard-gui 
+   11  npm install
+   12  sudo npm start
+   13  ./msi-keyboard-gui 
+   14  sudo apt -y install libgconf2-4
+   15  ./msi-keyboard-gui 
+   16  sudo ./msi-keyboard-gui 
+   17  speaker-test -t wav
+   18  arecord --format=S16_LE --duration=5 --rate=16000 --file-type=raw out.raw
+   19  aplay --format=S16_LE --rate=16000 out.raw
+   20  alsamixer 
+   21  ls
+   22  mkdir projects
+   23  cd projects/
+   24  python3
+   25  python3 venv -m /gassist
+   26  python3 -m venv /gassist
+   27  mkdir gassist
+   28  python3 -m venv /gassist
+   29  python3 -m venv /gassist/
+   30  python3 -m venv
+   31  sudo python3 -m venv
+   32  sudo python3 -m venv /gassist
+   33  apt-get istall python3-venv
+   34  apt-get install python3-venv
+   35  sudo apt-get install python3-venv
+   36  venv
+   37  ls
+   38  cd gassist/
+   39  ls
+   40  cd ..
+   41  sudo bash
+   42  bash
+   43  python3 -m venv gassist/
+   44  apt-get install venv
+   45  venv
+   46  apt install venv
+   47  source gassist/bin/activate
+   48  apt-get update
+   49  apt-get install python3-dev python3-venv 
+   50  gassist/bin/python -m pip install
+   51  source ..
+   52  deactivate 
+   53  gassist/bin/python -m pip install --upgrade pip setuptools wheel
+   54  source gassist/bin/activate
+   55  cd gassist/
+   56  bash
+   57  cd projects/
+   58  source gassist/bin/activate
+   59  cd gassist/
+   60  mkdir src
+   61  cd src
+   62  sudo apt-get install portaudio19-dev libffi-dev libssl-dev libbmpg123-dev
+   63  sudo apt-get install portaudio19-dev libffi-dev libssl-dev libmpg123-dev
+   64  python -m pip install --upgrade google-assistant library
+   65  python -m pip install --upgrade google-assistant-library
+   66  sudo python -m pip install --upgrade google-assistant-library
+   67  python -m pip install --upgrade google-assistant-library
+   68  python -m pip install --upgrade google-assistant-library --user root
+   69  python -m pip install --upgrade google-assistant-library --user=root
+   70  python -m pip install --upgrade google-assistant-library --user
+   71  python -m pip install --upgrade google-assistant-sdk[samples] --user
+   72  python -m pip install --upgrade google-auth-oauthlib[tool] --user
+   73  google-oauthlib-tool --scope https://www.googleapis.com/auth/assistant-sdk-prototype       --scope https://www.googleapis.com/auth/gcm       --save --headless --client-secrets client_secret_122649180258-r87t9kofogj15kjtep2akcklv2g962fc.apps.googleusercontent.com.json
+   74  python -m pip install --upgrade google-auth-oauthlib[tool]
+   75  deactivate
+   76  cd ../../..
+   77  udo apt-get install python3-dev python3-venv
+   78  sudo apt-get install python3-dev python3-venv
+   79  python3 -m venv gassist
+   80  gassist/bin/python -m pip install
+   81  gassist/bin/python -m pip install --upgrade pip setuptools wheel
+   82  source gassist/bin/activate
+   83  cd gassist/
+   84  mkdir src
+   85  cd src
+   86  python -m pip install --upgrade google-assistant-library
+   87  python -m pip install --upgrade google-assistant-sdk[samples]
+   88  python -m pip install --upgrade google-auth-oauthlib[tool]
+   89  google-oauthlib-tool --scope https://www.googleapis.com/auth/assistant-sdk-prototype       --scope https://www.googleapis.com/auth/gcm       --save --headless --client-secrets client_secret_122649180258-r87t9kofogj15kjtep2akcklv2g962fc.apps.googleusercontent.com.json
+   90  googlesamples-assistant-hotword --project_id 
+   91  googlesamples-assistant-hotword --project_id ubuntu-8990a --device_model_id ubuntu-8990a-ge70-2pe-i8ast5
+   92  deactivate 
+   93  cd ~
+   94  sudo apt-get install gcc
+   95  gcc
+   96  mkdir week1
+   97  cd week1
+   98  ls ..
+   99  ls ../usr/bin | sort -r | grep gcc > ~/week1/ex1.txt
+  100  ls /usr/bin/ | sort -r | grep gcc > ~/week1/ex1.txt
+  101  vim
+  102  gedit
+  103  gedit ex1.txt
+  104  python3
+  105  history > ex2.txt
