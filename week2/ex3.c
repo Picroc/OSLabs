@@ -18,15 +18,15 @@ int main(int argc, char *argv[]) {
 
 void fill_with_spaces(char* str, int size) {
     for (int i = 0; i < size; i++) {
-        str[i] = (char)32;
+        str[i] = ' ';
     }
 }
 
 void print_tri(int size) {
     int row_size = (int)(2*size) - 1;
 
-    char row[row_size];
-    printf ("%u\n",(unsigned)strlen(row));
+    char row[row_size+1];
+    row[row_size] = '\0';
 
     for (int i = 0; i < size; i++) {
         fill_with_spaces(row, row_size);
@@ -41,4 +41,5 @@ void print_tri(int size) {
 
         printf("%s\n", row);
     }
+    printf ("%u\n",(unsigned)strlen(row));
 }
