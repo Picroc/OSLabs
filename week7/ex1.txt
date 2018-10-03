@@ -1,0 +1,659 @@
+    1  ./configure
+    2  make
+    3  sudo apt install make
+    4  make
+    5  curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+    6  sudo apt install curl
+    7  curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+    8  sudo apt-get install -y nodejs
+    9  sudo ./msi-keyboard-gui 
+   10  ./msi-keyboard-gui 
+   11  npm install
+   12  sudo npm start
+   13  ./msi-keyboard-gui 
+   14  sudo apt -y install libgconf2-4
+   15  ./msi-keyboard-gui 
+   16  sudo ./msi-keyboard-gui 
+   17  speaker-test -t wav
+   18  arecord --format=S16_LE --duration=5 --rate=16000 --file-type=raw out.raw
+   19  aplay --format=S16_LE --rate=16000 out.raw
+   20  alsamixer 
+   21  ls
+   22  mkdir projects
+   23  cd projects/
+   24  python3
+   25  python3 venv -m /gassist
+   26  python3 -m venv /gassist
+   27  mkdir gassist
+   28  python3 -m venv /gassist
+   29  python3 -m venv /gassist/
+   30  python3 -m venv
+   31  sudo python3 -m venv
+   32  sudo python3 -m venv /gassist
+   33  apt-get istall python3-venv
+   34  apt-get install python3-venv
+   35  sudo apt-get install python3-venv
+   36  venv
+   37  ls
+   38  cd gassist/
+   39  ls
+   40  cd ..
+   41  sudo bash
+   42  bash
+   43  python3 -m venv gassist/
+   44  apt-get install venv
+   45  venv
+   46  apt install venv
+   47  source gassist/bin/activate
+   48  apt-get update
+   49  apt-get install python3-dev python3-venv 
+   50  gassist/bin/python -m pip install
+   51  source ..
+   52  deactivate 
+   53  gassist/bin/python -m pip install --upgrade pip setuptools wheel
+   54  source gassist/bin/activate
+   55  cd gassist/
+   56  bash
+   57  cd projects/
+   58  source gassist/bin/activate
+   59  cd gassist/
+   60  mkdir src
+   61  cd src
+   62  sudo apt-get install portaudio19-dev libffi-dev libssl-dev libbmpg123-dev
+   63  sudo apt-get install portaudio19-dev libffi-dev libssl-dev libmpg123-dev
+   64  python -m pip install --upgrade google-assistant library
+   65  python -m pip install --upgrade google-assistant-library
+   66  sudo python -m pip install --upgrade google-assistant-library
+   67  python -m pip install --upgrade google-assistant-library
+   68  python -m pip install --upgrade google-assistant-library --user root
+   69  python -m pip install --upgrade google-assistant-library --user=root
+   70  python -m pip install --upgrade google-assistant-library --user
+   71  python -m pip install --upgrade google-assistant-sdk[samples] --user
+   72  python -m pip install --upgrade google-auth-oauthlib[tool] --user
+   73  google-oauthlib-tool --scope https://www.googleapis.com/auth/assistant-sdk-prototype       --scope https://www.googleapis.com/auth/gcm       --save --headless --client-secrets client_secret_122649180258-r87t9kofogj15kjtep2akcklv2g962fc.apps.googleusercontent.com.json
+   74  python -m pip install --upgrade google-auth-oauthlib[tool]
+   75  deactivate
+   76  cd ../../..
+   77  udo apt-get install python3-dev python3-venv
+   78  sudo apt-get install python3-dev python3-venv
+   79  python3 -m venv gassist
+   80  gassist/bin/python -m pip install
+   81  gassist/bin/python -m pip install --upgrade pip setuptools wheel
+   82  source gassist/bin/activate
+   83  cd gassist/
+   84  mkdir src
+   85  cd src
+   86  python -m pip install --upgrade google-assistant-library
+   87  python -m pip install --upgrade google-assistant-sdk[samples]
+   88  python -m pip install --upgrade google-auth-oauthlib[tool]
+   89  google-oauthlib-tool --scope https://www.googleapis.com/auth/assistant-sdk-prototype       --scope https://www.googleapis.com/auth/gcm       --save --headless --client-secrets client_secret_122649180258-r87t9kofogj15kjtep2akcklv2g962fc.apps.googleusercontent.com.json
+   90  googlesamples-assistant-hotword --project_id 
+   91  googlesamples-assistant-hotword --project_id ubuntu-8990a --device_model_id ubuntu-8990a-ge70-2pe-i8ast5
+   92  deactivate 
+   93  cd ~
+   94  cd .
+   95  cd ?
+   96  cd /
+   97  ls
+   98  mkdir week1
+   99  cd ~
+  100  sudo apt-get install gcc
+  101  gcc
+  102  mkdir week1
+  103  cd week1
+  104  ls ..
+  105  ls ../usr/bin | sort -r | grep gcc > ~/week1/ex1.txt
+  106  ls /usr/bin/ | sort -r | grep gcc > ~/week1/ex1.txt
+  107  vim
+  108  gedit
+  109  gedit ex1.txt
+  110  python3
+  111  history > ex2.txt
+  112  gedit ex2.txt 
+  113  touch ex3.sh
+  114  gedit ex3.sh 
+  115  time
+  116  man time
+  117  systime
+  118  timenow
+  119  now
+  120  t
+  121  whoami
+  122  gedit ex3.sh &
+  123  man whoami 
+  124  date
+  125  ./ex3.sh
+  126  ex3.sh
+  127  ./ex3
+  128  ./ex3.sh
+  129  sudo ./ex3.sh
+  130  sh ex3.sh 
+  131  gedit ex3.sh &
+  132  sh ex3.sh 
+  133  gedit main.c
+  134  gcc main.c -o ex4
+  135  ./ex4
+  136  gedit ex4 
+  137  gedit main.c 
+  138  gcc main.c -o ex4
+  139  ./ex4
+  140  cd ~
+  141  ls
+  142  cd CLionProjects/Labs/
+  143  gcc ex1.c -o ex1
+  144  ./ex1
+  145  gcc ex1.c -o ex1
+  146  ./ex1
+  147  gcc ex1.c -o ex1
+  148  ./ex1
+  149  gcc ex1.c -o ex1
+  150  ./ex1
+  151  mv ex1.c ~/week2/
+  152  mv ex1.c ~/week2
+  153  mv ex1.c ~/week2/ex1.c
+  154  mkdir ~/week2
+  155  mv ex1.c ~/week2
+  156  mv ex1.c ~/week2/ex1.c
+  157  mv
+  158  man mv
+  159  ls
+  160  cd ~/week2
+  161  gcc main.c -o ex1
+  162  mv main.c ex1.c
+  163  reboot
+  164  ssh
+  165  ssh a.logachev@osc-1.edu.innopolis.ru
+  166  echo "# OSLabs" >> README.md
+  167  git init
+  168  sudo apt install git
+  169  git init
+  170  git add README.md 
+  171  git commit -m "first commit"
+  172  ssh a.logachev@osc-1.edu.innopolis.ru
+  173  git commit -m "first commit"
+  174  git config --global user.email "lesha.logachev99@gmail.com"
+  175  git config --global user.name "Picroc"
+  176  git commit -m "first commit"
+  177  git remote add origin https://github.com/Picroc/OSLabs.git
+  178  git push -u origin master
+  179  man git
+  180  rm -rf .git
+  181  ls
+  182  mkdir OS
+  183  mv week1 OS
+  184  mv week2 OS
+  185  cd OS
+  186  ls
+  187  git init
+  188  git add week1
+  189  git commit -m "Added week1 exercises"
+  190  git remote add origin https://github.com/Picroc/OSLabs.git
+  191  git push -u origin master
+  192  git pull
+  193  git pull origin master
+  194  git pull
+  195  git pull master
+  196  git pull origin master
+  197  git push -u origin master
+  198  git pull origin master
+  199  git push -u origin master
+  200  git pull origin master --allow-unrelated-history
+  201  git pull origin master --allow-unrelated-histories
+  202  git push -u origin master
+  203  cd OS/week2/
+  204  gcc ex2.c -o ex2
+  205  ./ex2
+  206  gcc ex2.c -o ex2
+  207  ./ex2
+  208  gcc ex2.c -o ex2
+  209  ./ex2
+  210  gcc ex2.c -o ex2
+  211  ./ex2
+  212  gcc ex2.c -o ex2
+  213  ./ex2
+  214  gcc ex2.c -o ex2
+  215  ./ex2
+  216  gcc ex2.c -o ex2
+  217  ./ex2
+  218  gcc ex3.c -o ex3
+  219  ./ex2
+  220  ./ex3
+  221  ./ex3 4
+  222  ./ex3
+  223  gcc ex3.c -o ex3
+  224  ./ex3
+  225  ./ex3 4
+  226  gcc ex3.c -o ex3
+  227  ./ex3 4
+  228  gcc ex3.c -o ex3
+  229  ./ex3 4
+  230  cd OS/week2/
+  231  ./ex3
+  232  ./ex3 
+  233  gcc ex3.c -o ex3
+  234  ./ex3 
+  235  ./ex3 34
+  236  gcc ex3.c -o ex3
+  237  ./ex3 34
+  238  gcc ex3.c -o ex3
+  239  ./ex3 34
+  240  ./ex3 3
+  241  gcc ex3.c -o ex3
+  242  ./ex3 3
+  243  gcc ex3.c -o ex3
+  244  ./ex3 3
+  245  ./ex3 33
+  246  ./ex3 
+  247  gcc ex3.c -o ex3
+  248  ./ex3 
+  249  ./ex3
+  250  ./ex3 2
+  251  ./ex3 2 2
+  252  ./ex3 
+  253  gcc ex3.c -o ex3
+  254  ./ex3 2
+  255  gcc ex3.c -o ex3
+  256  ./ex3 2
+  257  gcc ex3.c -o ex3
+  258  ./ex3 2
+  259  ./ex3 6
+  260  ./ex3 3
+  261  ./ex3 4
+  262  ./ex3 5
+  263  ./ex3 10
+  264  ./ex3 1
+  265  ./ex3 2
+  266  ./ex3 3
+  267  ./ex3 4
+  268  ./ex3 5
+  269  ./ex3 15
+  270  gcc ex3.c -o ex3
+  271  ./ex3 15
+  272  ./ex3 1
+  273  gcc ex3.c -o ex3
+  274  ./ex3 1
+  275  ./ex3 2
+  276  ./ex3 3
+  277  ./ex3 4
+  278  gcc ex3.c -o ex3
+  279  ./ex3 4
+  280  ./ex3 5
+  281  ./ex3 6
+  282  gcc ex3.c -o ex3
+  283  ./ex3 6
+  284  ./ex3 1
+  285  gcc ex3.c -o ex3
+  286  ./ex3 1
+  287  ./ex3 2
+  288  ./ex3 3
+  289  gcc ex3.c -o ex3
+  290  ./ex3 3
+  291  ./ex3 4
+  292  gcc test.c -o test
+  293  ./test
+  294  clang
+  295  sudo apt install clang
+  296  gcc test.c -o test
+  297  ./test
+  298  gcc ex3.c -o ex3
+  299  ./ex3 4
+  300  gcc test.c -o test
+  301  ./test
+  302  gcc test.c -o test
+  303  ./test
+  304  gcc ex3.c -o ex3
+  305  ./ex3 4
+  306  ./ex3 6
+  307  ./ex3 10
+  308  ./ex3 1
+  309  gcc ex3.c -o ex3
+  310  ./ex3 1
+  311  gcc ex3.c -o ex3
+  312  ./ex3 1
+  313  ./ex3 2
+  314  gcc ex3.c -o ex3
+  315  gcc ex3.c -o ex3
+  316  ./ex3 2
+  317  gcc ex3.c -o ex3
+  318  ./ex3 2
+  319  gcc ex3.c -o ex3
+  320  ./ex3 2
+  321  gcc ex4.c -o ex4
+  322  ./ex4
+  323  gcc ex4.c -o ex4
+  324  ./ex4
+  325  gcc ex4.c -o ex4
+  326  ./ex4
+  327  ls
+  328  rm test
+  329  ls
+  330  cd ..
+  331  git
+  332  git status
+  333  git add week2
+  334  git commit -t "Added week2"
+  335  git commit
+  336  git commit -m "Added week2"
+  337  git push
+  338  git pull origin master --rebase -X theirs
+  339  git push
+  340  cd OS/week2/
+  341  ./ex3
+  342  ./ex3 3
+  343  ./ex3 5
+  344  gcc ex3.c -o ex3
+  345  ./ex3 5
+  346  gcc ex3.c -o ex3
+  347  ./ex3 5
+  348  cd ..
+  349  git commit
+  350  git commit -m "Fixed ex3"
+  351  git update
+  352  git 
+  353  git status
+  354  git add *
+  355  git status
+  356  git commit -m "Fixed ex3"
+  357  git push origin master
+  358  cd os
+  359  cd OS
+  360  ls
+  361  mkdir week3
+  362  cd week3
+  363  gcc ex1.c -o ex1
+  364  clang
+  365  male
+  366  make
+  367  make ex1
+  368  make ex1.c
+  369  make ex1
+  370  gcc ex1.c -o ex1
+  371  ./ex1
+  372  gcc ex2.c -o ex2
+  373  ./ex2
+  374  gcc ex2.c -o ex2
+  375  ./ex2
+  376  gcc ex3.c -o ex3
+  377  ./ex3
+  378  gcc ex3.c -o ex3
+  379  ./ex3
+  380  gcc ex3.c -o ex3
+  381  ./ex3
+  382  gcc ex3.c -o ex3
+  383  ./ex3
+  384  gcc ex3.c -o ex3
+  385  ./ex3
+  386  gcc ex3.c -o ex3
+  387  ./ex3
+  388  gcc ex3.c -o ex3
+  389  ./ex3
+  390  gcc ex3.c -o ex3
+  391  ./ex3
+  392  gcc ex3.c -o ex3
+  393  ./ex3
+  394  gcc ex3.c -o ex3
+  395  ./ex3
+  396  gcc ex3.c -o ex3
+  397  ./ex3
+  398  gcc ex3.c -o ex3
+  399  ./ex3
+  400  gcc ex3.c -o ex3
+  401  ./ex3
+  402  gcc ex3.c -o ex3
+  403  ./ex3
+  404  gcc ex3.c -o ex3
+  405  ./ex3
+  406  gcc ex3.c -o ex3
+  407  ./ex3
+  408  gcc ex3.c -o ex3
+  409  ./ex3
+  410  gcc ex3.c -o ex3
+  411  ./ex3
+  412  gcc ex3.c -o ex3
+  413  ./ex3
+  414  gcc ex3.c -o ex3
+  415  ./ex3
+  416  gcc ex3.c -o ex3
+  417  ./ex3
+  418  gcc ex3.c -o ex3
+  419  ./ex3
+  420  gcc ex3.c -o ex3
+  421  ./ex3
+  422  gcc ex3.c -o ex3
+  423  ./ex3
+  424  gcc ex3.c -o ex3
+  425  ./ex3
+  426  gcc ex3.c -o ex3
+  427  ./ex3
+  428  gcc ex3.c -o ex3
+  429  ./ex3
+  430  gcc ex3.c -o ex3
+  431  ./ex3
+  432  gcc ex3.c -o ex3
+  433  ./ex3
+  434  gcc ex3.c -o ex3
+  435  ./ex3
+  436  gcc ex3.c -o ex3
+  437  ./ex3
+  438  gcc ex3.c -o ex3
+  439  ./ex3
+  440  gcc ex3.c -o ex3
+  441  ./ex3
+  442  gcc ex3.c -o ex3
+  443  ./ex3
+  444  gcc ex3.c -o ex3
+  445  ./ex3
+  446  gcc ex3.c -o ex3
+  447  ./ex3
+  448  gcc ex3.c -o ex3
+  449  ./ex3
+  450  gcc ex3.c -o ex3
+  451  ./ex3
+  452  gcc ex3.c -o ex3
+  453  ./ex3
+  454  gcc ex3.c -o ex3
+  455  ./ex3
+  456  gcc ex3.c -o ex3
+  457  ./ex3
+  458  gcc ex3.c -o ex3
+  459  ./ex3
+  460  cd ..
+  461  git add week3
+  462  git
+  463  git commit -m "Added week3"
+  464  git push origin master
+  465  reboot
+  466  sudo apt install jre
+  467  sudo apt-get install jre
+  468  sudo apt install default-jre
+  469  sudo apt install default-jdk
+  470  mv OS eclipse-workspace/OSLabs
+  471  cd Downloads/msi-keyboard-gui-linux-x64/
+  472  sudo ./msi-keyboard-gui 
+  473  sudo apt install xneur
+  474  gconftool-2 -s -t string /apps/gxneur/rendering_engine AppIndicator
+  475  ls
+  476  cd eclipse-workspace/
+  477  ls
+  478  cd OSLabs/week4
+  479  gcc ex1.c -o ex1
+  480  ./ex1
+  481  ./ex1.sh
+  482  chmod +x ex1.sh
+  483  ./ex1.sh
+  484  pstree
+  485  gcc ex2.c -o ex2
+  486  ./ex2
+  487  ./ex2 &
+  488  pstree
+  489  gcc ex2.c -o ex2
+  490  ./ex2 &
+  491  pstree
+  492  man pstree
+  493  gcc ex2.c -o ex2
+  494  ./ex2 &
+  495  pstree 6628
+  496  pwd
+  497  top
+  498  cd ..
+  499  git add week4
+  500  cd ..
+  501  git status
+  502  cd OSLabs/
+  503  git init
+  504  git pull
+  505  git pull https://github.com/Picroc/OSLabs origin
+  506  git pull https://github.com/Picroc/OSLabs master
+  507  git pull
+  508  git clone https://github.com/Picroc/OSLabs
+  509  git status
+  510  git pull
+  511  git pull origin master
+  512  git pull https://github.com/Picroc/OSLabs
+  513  https://github.com/Picroc/OSLabs
+  514  git pull https://github.com/Picroc/OSLabs
+  515  git status
+  516  git add week4
+  517  git commit -m "Added week4"
+  518  git push
+  519  git push https://github.com/Picroc/OSLabs
+  520  git push origin master
+  521  git push master origin
+  522  git push
+  523  git remote add picroc https://github.com/Picroc/OSLabs
+  524  git push picroc
+  525  git push --set-upstream picroc master
+  526  cd eclipse-workspace/OSLabs/week4/
+  527  gcc ex3.c -o ex3
+  528  ./ex3
+  529  man fork
+  530  man execve
+  531  cd ..
+  532  git add week4
+  533  git commit -m "Updated week4"
+  534  git push
+  535  cd eclipse-workspace/OSLabs/week5/
+  536  gcc -pthread ex1.c
+  537  gcc -pthread ex1.c -o ex1
+  538  ./ex1 5
+  539  gcc -pthread ex1.c -o ex1
+  540  ./ex1 5
+  541  gcc -pthread ex1.c -o ex1
+  542  ./ex1 5
+  543  ./ex2
+  544  ./ex2.sh
+  545  sudo ./ex2.sh
+  546  ./ex2.sh
+  547  man grep
+  548  ./ex2.sh
+  549  cd !
+  550  cd ~
+  551  ls
+  552  cd .
+  553  cd ..
+  554  ls
+  555  cd picroc/
+  556  cd ../..
+  557  cd /
+  558  ls
+  559  cd bin
+  560  ls
+  561  cd eclipse-workspace/OSLabs/week5/
+  562  sh ex2.sh
+  563  sudo apt install let
+  564  let
+  565  let "a=+1"
+  566  echo $a
+  567  let "a=+1"
+  568  echo $a
+  569  let "a=+1"; let "a+=2"; echo a
+  570  let "a=+1"; let "a+=2"; echo $a
+  571  sh ex2.sh
+  572  h ex2.sh
+  573  sh ex2.sh
+  574  sh ex2.sh &
+  575  echo $PATH
+  576  sh ex2.sh &
+  577  ptree
+  578  pstree
+  579  ptree 12880
+  580  pstree 12880
+  581  pstree 12857
+  582  pstree 12867
+  583  pstree 12880
+  584  kill 12880
+  585  pstree 12880
+  586  sh ex2.sh &
+  587  sh ex2.sh
+  588  kill 19883
+  589  sh ex2.sh &
+  590  sh ex2.sh
+  591  kill 17393
+  592  sh ex2.sh | sh ex2.sh &
+  593  kill 17933
+  594  ps
+  595  pstree sh
+  596  pstree
+  597  sptree sh
+  598  pstree sh
+  599  ps
+  600  gcc -pthread ex3.c -o ex3
+  601  ./ex3
+  602  gcc -pthread ex3.c -o ex3
+  603  ./ex3
+  604  gcc -pthread ex3.c -o ex3
+  605  ./ex3
+  606  gcc -pthread ex3.c -o ex3
+  607  ./ex3
+  608  gcc -pthread ex3.c -o ex3
+  609  ./ex3
+  610  gcc -pthread ex3.c -o ex3
+  611  ./ex3
+  612  gcc -pthread ex3.c -o ex3
+  613  ./ex3
+  614  gcc -pthread ex3.c -o ex3
+  615  ./ex3
+  616  gcc -pthread ex3.c -o ex3
+  617  ./ex3
+  618  gcc -pthread ex3.c -o ex3
+  619  ./ex3
+  620  gcc -pthread ex3.c -o ex3
+  621  ./ex3
+  622  gcc -pthread ex3.c -o ex3
+  623  ./ex3
+  624  gcc -pthread ex3.c -o ex3
+  625  ./ex3
+  626  cd ..
+  627  git status
+  628  git add week5
+  629  git commit -m "Added week5"
+  630  git add week5
+  631  git commit -m "Added week5"
+  632  git push origin master
+  633  git push
+  634  cd eclipse-workspace/OSLabs/week6/
+  635  gcc ex6.c -o ex6
+  636  ./ex6
+  637  gcc ex6.c -o ex6
+  638  ./ex6
+  639  gcc ex6.c -o ex6
+  640  ./ex6
+  641  gcc ex6.c -o ex6
+  642  ./ex6
+  643  gcc ex6.c -o ex6
+  644  ./ex6
+  645  cd ..
+  646  git add week6
+  647  git commit -m "Week6 added"
+  648  git push
+  649  ьфт ышяу
+  650  man size
+  651  cd eclipse-workspace/OSLabs/
+  652  mkdir week7
+  653  cd week7
+  654  size ../week6/ex1
+  655  size ../week6/ex2
+  656  size ../week6/ex3
+  657  size ../week6/ex3 --format=SysV
+  658  log
+  659  history > ex1.txt
