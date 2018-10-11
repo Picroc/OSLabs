@@ -1,0 +1,3 @@
+The physical memory is the RAM, which is used by computer first. But if when the RAM filled,
+ the computer can use a virtual memory, what is actually a mapping to hard drive. Virtual memory is obviously
+ slower, but can contain more information.
