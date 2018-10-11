@@ -1,0 +1,244 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  reboot
+    4  sudo add-apt-repository ppa:ricotz/docky
+    5  sudo apt update
+    6  sudo apt install plank
+    7  reboot
+    8  sddm
+    9  jockey-text
+   10  jockey-text --list
+   11  sudo apt istall jockey-text
+   12  sudo apt install jockey-text
+   13  jockey-text
+   14  sudo ubuntu-drivers devices
+   15  sudo apt install xserver-xorg-video-nonveau
+   16  sudo apt install xserver-xorg-video-nouveau
+   17  modprobe -r nvidia
+   18  modprobe nouveau 
+   19  reboot
+   20  sudo nano /etc/X11/xorg.conf
+   21  cd /etc/X11/
+   22  ls
+   23  cd /
+   24  ubuntu-drivers devices
+   25  sudo apt purge nvidia-340
+   26  sudo apt purge nvidia-driver-390 
+   27  sudo ubuntu-drivers devices
+   28  sddm
+   29  modprobe nouveau
+   30  sudo apt update
+   31  reboot
+   32  sddm
+   33  modprobe -r nvidia
+   34  modprobe nvidia
+   35  sddm
+   36  systemctl enable sddm
+   37  s
+   38  systemctl enable sddm
+   39  sddm-greeter --theme /usr/share/sddm/themes/breeze/
+   40  sddm
+   41  sudo apt install nvidia-driver-390 
+   42  reboot
+   43  sddm --test-mode
+   44  ls
+   45  cd /
+   46  ls
+   47  cd ~
+   48  ls
+   49  cd /usr/share/sddm
+   50  ls
+   51  cd scripts/
+   52  ls
+   53  ./Xsetup 
+   54  sudo ./Xsetup 
+   55  cd ..
+   56  cd ../..
+   57  cd lib/
+   58  ls
+   59  cd /etc/
+   60  ls
+   61  cd sddm/
+   62  ls
+   63  cd ..
+   64  cd /usr/lib/sd
+   65  cd /usr/lib/sddm
+   66  sudo apt install sddm
+   67  sudo apt purge sddm
+   68  sudo apt update
+   69  sudo apt install 
+   70  sudo apt install sddm
+   71  sddm
+   72  sddm --example-config | sudo tee /etc/sddm.conf 
+   73  sddm
+   74  reboot
+   75  sudo apt purge plank
+   76  sudo apt install plank
+   77  sudo apt purge plank
+   78  sudo apt install plank
+   79  man plank
+   80  plank -h
+   81  plank -p
+   82  plank --preferences
+   83  plank
+   84  sudo plank
+   85  plank
+   86  kilall plank
+   87  sudo apt remove plank
+   88  sudo apt purge plank
+   89  plank
+   90  sudo apt install plank
+   91  plank
+   92  sddm --example-config | sudo tee /etc/sddm.conf 
+   93  reboot
+   94  sudo mkdir Mac_OS
+   95  rm -rf Mac_OS/
+   96  sudo rm -rf Mac_OS/
+   97  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
+   98  echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+   99  sudo apt update
+  100  sudo apt install spotify-client
+  101  sudo spotify 
+  102  nano ~/.config/mimeapps.list 
+  103  reboot
+  104  ./clion.sh 
+  105  sudo install gimp
+  106  sudo apt install gimp
+  107  ubuntu-drivers devices
+  108  sudo apt install lm-sensors 
+  109  sudo sensors-detect 
+  110  sudo service kmod start
+  111  sensors
+  112  ./Telegram 
+  113  ./Updater 
+  114  ./Telegram 
+  115  sudo ./Telegram 
+  116  cd ..
+  117  cd Telegram/
+  118  ./Telegram 
+  119  ./Updater 
+  120  mkdir OSLabs
+  121  cd OSLabs/
+  122  cd ..
+  123  cd OSLabs/
+  124  git init
+  125  sudo apt install git
+  126  git clone https://github.com/Picroc/OSLabs
+  127  git pull origin master
+  128  git init
+  129  git pull origin master
+  130  ls
+  131  cd OSLabs/
+  132  git pull
+  133  ls
+  134  git config --global user.name="Picroc:
+  135  "
+  136  git config --global user.name="Picroc"
+  137  git config --global user.name='Picroc'
+  138  git config --global user.name "Picroc"
+  139  git config --global user.email "lesha.logachev99@gmail.com"
+  140  echo " "
+  141  echo " " > test.txt
+  142  ls
+  143  git status
+  144  git add text.txt
+  145  git add test.txt
+  146  git commit -m "Just testing..."
+  147  git push
+  148  git log
+  149  git log --stat
+  150  git log --pretty
+  151  gir rm test.txt 
+  152  git rm test.txt 
+  153  git status
+  154  git commit -m "Deleted unneccesary test"
+  155  git push
+  156  sudo apt install pencil2d
+  157  pencil2d 
+  158  reboot
+  159  uname
+  160  uname -sr
+  161  kwin
+  162  reboot
+  163  sensors
+  164  ls
+  165  cd OSLabs/
+  166  ls
+  167  cd OSLabs/
+  168  ls
+  169  cd week4
+  170  nano ex2.c
+  171  echo "Vlad debil" > vlad_daun.txt
+  172  nano vlad_daun.txt 
+  173  cd ..
+  174  ls
+  175  echo "test" > test.txt
+  176  ls
+  177  git status
+  178  git add *.txt
+  179  git status
+  180  git commit -m "Added test file"
+  181  git push
+  182  git rm test.txt 
+  183  git commit -m "Deleted test file"
+  184  git push
+  185  cd week3
+  186  ls
+  187  ./ex3
+  188  cd ..
+  189  git status
+  190  git add .gitignore 
+  191  git commit -m "Added gitignore"
+  192  git push
+  193  reboot
+  194  shutdown 
+  195  man shutdown 
+  196  ubuntu-frivers
+  197  ubuntu-drivers autoinstall
+  198  sudo ubuntu-drivers autoinstall
+  199  sudo for FILE in $(dpkg-divert --list | grep nvidia-340 | awk '{print $3}'); do dpkg-divert --remove $FILE; done
+  200  sudo for FILE in $(dpkg-divert --list | grep nvidia-340 | awk '{print $3}');do dpkg-divert --remove $FILE; done
+  201  for FILE in $(dpkg-divert --list | grep nvidia-340 | awk '{print $3}'); do dpkg-divert --remove $FILE; done
+  202  su
+  203  root
+  204  sudo -i
+  205  man ubuntu-drivers
+  206  sudo ubuntu-drivers list
+  207  sudo ubuntu-drivers 
+  208  sudo ubuntu-drivers install
+  209  sudo ubuntu-drivers devices
+  210  sudo apt install nvidia-340
+  211  sudo ubuntu-drivers autoinstall
+  212  reboot
+  213  tar -xf ./msi-keyboard-gui-linux*.tar.gz
+  214  cd Downloads/
+  215  ls
+  216  tar -xf ./msi-keyboard-gui-linux*.tar.gz
+  217  sudo ./msi-keyboard-gui-linux-x64/msi-keyboard-gui 
+  218  ./msi.sh
+  219  ./msi.sh 
+  220  sudo ./msi.sh 
+  221  reboot
+  222  shutdown 
+  223  shutdown
+  224  free -t -h
+  225  history > ex1.txt
+  226  man free
+  227  cd OSLabs/
+  228  cd week8
+  229  ls
+  230  gcc ex2.c -o ex2
+  231  man memset
+  232  man sleep
+  233  gcc ex2.c -o ex2
+  234  ./ex2 &
+  235  free -t -h
+  236  ./ex2& & free -t -h
+  237  ./ex2 & free -t -h
+  238  free
+  239  free 1
+  240  free 10
+  241  free -s 10
+  242  ./ex2 & free -t -h -s 10
+  243  ./ex2 & free -t -h -s 1
+  244  history > ex2.txt
