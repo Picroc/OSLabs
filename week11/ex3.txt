@@ -1,0 +1,1 @@
+The difference is in buffering type of stout which is Line buffering by default. In first program the buffer is not freed because it is not filled or get a newline. In the second program before fork() the buffer is empty (we have "\n" in the line above).
