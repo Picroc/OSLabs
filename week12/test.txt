@@ -1,0 +1,651 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  reboot
+    4  sudo add-apt-repository ppa:ricotz/docky
+    5  sudo apt update
+    6  sudo apt install plank
+    7  reboot
+    8  sddm
+    9  jockey-text
+   10  jockey-text --list
+   11  sudo apt istall jockey-text
+   12  sudo apt install jockey-text
+   13  jockey-text
+   14  sudo ubuntu-drivers devices
+   15  sudo apt install xserver-xorg-video-nonveau
+   16  sudo apt install xserver-xorg-video-nouveau
+   17  modprobe -r nvidia
+   18  modprobe nouveau 
+   19  reboot
+   20  sudo nano /etc/X11/xorg.conf
+   21  cd /etc/X11/
+   22  ls
+   23  cd /
+   24  ubuntu-drivers devices
+   25  sudo apt purge nvidia-340
+   26  sudo apt purge nvidia-driver-390 
+   27  sudo ubuntu-drivers devices
+   28  sddm
+   29  modprobe nouveau
+   30  sudo apt update
+   31  reboot
+   32  sddm
+   33  modprobe -r nvidia
+   34  modprobe nvidia
+   35  sddm
+   36  systemctl enable sddm
+   37  s
+   38  systemctl enable sddm
+   39  sddm-greeter --theme /usr/share/sddm/themes/breeze/
+   40  sddm
+   41  sudo apt install nvidia-driver-390 
+   42  reboot
+   43  sddm --test-mode
+   44  ls
+   45  cd /
+   46  ls
+   47  cd ~
+   48  ls
+   49  cd /usr/share/sddm
+   50  ls
+   51  cd scripts/
+   52  ls
+   53  ./Xsetup 
+   54  sudo ./Xsetup 
+   55  cd ..
+   56  cd ../..
+   57  cd lib/
+   58  ls
+   59  cd /etc/
+   60  ls
+   61  cd sddm/
+   62  ls
+   63  cd ..
+   64  cd /usr/lib/sd
+   65  cd /usr/lib/sddm
+   66  sudo apt install sddm
+   67  sudo apt purge sddm
+   68  sudo apt update
+   69  sudo apt install 
+   70  sudo apt install sddm
+   71  sddm
+   72  sddm --example-config | sudo tee /etc/sddm.conf 
+   73  sddm
+   74  reboot
+   75  sudo apt purge plank
+   76  sudo apt install plank
+   77  sudo apt purge plank
+   78  sudo apt install plank
+   79  man plank
+   80  plank -h
+   81  plank -p
+   82  plank --preferences
+   83  plank
+   84  sudo plank
+   85  plank
+   86  kilall plank
+   87  sudo apt remove plank
+   88  sudo apt purge plank
+   89  plank
+   90  sudo apt install plank
+   91  plank
+   92  sddm --example-config | sudo tee /etc/sddm.conf 
+   93  reboot
+   94  sudo mkdir Mac_OS
+   95  rm -rf Mac_OS/
+   96  sudo rm -rf Mac_OS/
+   97  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
+   98  echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+   99  sudo apt update
+  100  sudo apt install spotify-client
+  101  sudo spotify 
+  102  nano ~/.config/mimeapps.list 
+  103  reboot
+  104  ./clion.sh 
+  105  sudo install gimp
+  106  sudo apt install gimp
+  107  ubuntu-drivers devices
+  108  sudo apt install lm-sensors 
+  109  sudo sensors-detect 
+  110  sudo service kmod start
+  111  sensors
+  112  ./Telegram 
+  113  ./Updater 
+  114  ./Telegram 
+  115  sudo ./Telegram 
+  116  cd ..
+  117  cd Telegram/
+  118  ./Telegram 
+  119  ./Updater 
+  120  mkdir OSLabs
+  121  cd OSLabs/
+  122  cd ..
+  123  cd OSLabs/
+  124  git init
+  125  sudo apt install git
+  126  git clone https://github.com/Picroc/OSLabs
+  127  git pull origin master
+  128  git init
+  129  git pull origin master
+  130  ls
+  131  cd OSLabs/
+  132  git pull
+  133  ls
+  134  git config --global user.name="Picroc:
+  135  "
+  136  git config --global user.name="Picroc"
+  137  git config --global user.name='Picroc'
+  138  git config --global user.name "Picroc"
+  139  git config --global user.email "lesha.logachev99@gmail.com"
+  140  echo " "
+  141  echo " " > test.txt
+  142  ls
+  143  git status
+  144  git add text.txt
+  145  git add test.txt
+  146  git commit -m "Just testing..."
+  147  git push
+  148  git log
+  149  git log --stat
+  150  git log --pretty
+  151  gir rm test.txt 
+  152  git rm test.txt 
+  153  git status
+  154  git commit -m "Deleted unneccesary test"
+  155  git push
+  156  sudo apt install pencil2d
+  157  pencil2d 
+  158  reboot
+  159  uname
+  160  uname -sr
+  161  kwin
+  162  reboot
+  163  sensors
+  164  ls
+  165  cd OSLabs/
+  166  ls
+  167  cd OSLabs/
+  168  ls
+  169  cd week4
+  170  nano ex2.c
+  171  echo "Vlad debil" > vlad_daun.txt
+  172  nano vlad_daun.txt 
+  173  cd ..
+  174  ls
+  175  echo "test" > test.txt
+  176  ls
+  177  git status
+  178  git add *.txt
+  179  git status
+  180  git commit -m "Added test file"
+  181  git push
+  182  git rm test.txt 
+  183  git commit -m "Deleted test file"
+  184  git push
+  185  cd week3
+  186  ls
+  187  ./ex3
+  188  cd ..
+  189  git status
+  190  git add .gitignore 
+  191  git commit -m "Added gitignore"
+  192  git push
+  193  reboot
+  194  shutdown 
+  195  man shutdown 
+  196  ubuntu-frivers
+  197  ubuntu-drivers autoinstall
+  198  sudo ubuntu-drivers autoinstall
+  199  sudo for FILE in $(dpkg-divert --list | grep nvidia-340 | awk '{print $3}'); do dpkg-divert --remove $FILE; done
+  200  sudo for FILE in $(dpkg-divert --list | grep nvidia-340 | awk '{print $3}');do dpkg-divert --remove $FILE; done
+  201  for FILE in $(dpkg-divert --list | grep nvidia-340 | awk '{print $3}'); do dpkg-divert --remove $FILE; done
+  202  su
+  203  root
+  204  sudo -i
+  205  man ubuntu-drivers
+  206  sudo ubuntu-drivers list
+  207  sudo ubuntu-drivers 
+  208  sudo ubuntu-drivers install
+  209  sudo ubuntu-drivers devices
+  210  sudo apt install nvidia-340
+  211  sudo ubuntu-drivers autoinstall
+  212  reboot
+  213  tar -xf ./msi-keyboard-gui-linux*.tar.gz
+  214  cd Downloads/
+  215  ls
+  216  tar -xf ./msi-keyboard-gui-linux*.tar.gz
+  217  sudo ./msi-keyboard-gui-linux-x64/msi-keyboard-gui 
+  218  ./msi.sh
+  219  ./msi.sh 
+  220  sudo ./msi.sh 
+  221  reboot
+  222  shutdown 
+  223  shutdown
+  224  free -t -h
+  225  history > ex1.txt
+  226  man free
+  227  cd OSLabs/
+  228  cd week8
+  229  ls
+  230  gcc ex2.c -o ex2
+  231  man memset
+  232  man sleep
+  233  gcc ex2.c -o ex2
+  234  ./ex2 &
+  235  free -t -h
+  236  ./ex2& & free -t -h
+  237  ./ex2 & free -t -h
+  238  free
+  239  free 1
+  240  free 10
+  241  free -s 10
+  242  ./ex2 & free -t -h -s 10
+  243  ./ex2 & free -t -h -s 1
+  244  history > ex2.txt
+  245  top -d 1
+  246  ./ex2&
+  247  top -d 1
+  248  ./ex2&
+  249  top -d 1
+  250  man getrusage 
+  251  gcc ex4.c -o ex4
+  252  ./ex4
+  253  gcc ex4.c -o ex4
+  254  ./ex4
+  255  cd ..
+  256  git add week8
+  257  git commit -m "Added week8"
+  258  git push
+  259  git add week8
+  260  git commit -m "Added ex5"
+  261  git push
+  262  reboot
+  263  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+  264  sudo apt-get install apt-transport-https
+  265  echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+  266  sudo apt-get update 
+  267  sudo apt install sublime-text 
+  268  printf '\x00\01' | sudo dd seek=$((0xD538)) conv=notrunc bs=1 of=/opt/sublime_text/sublime_text
+  269  vim
+  270  sudo apt install vim
+  271  sudo vim /opt/sublime_text/sublime_text
+  272  reboot
+  273  shutdown
+  274  ptree
+  275  pstree
+  276  shutdown
+  277  echo 'export KWIN_TRIPLE_BUFFER=1' > kwin.sh
+  278  sudo echo 'export KWIN_TRIPLE_BUFFER=1' > kwin.sh
+  279  su
+  280  sudo echo 'export KWIN_TRIPLE_BUFFER=1' > kwin.sh
+  281  gksudo kwin.sh
+  282  sudo echo 'export KWIN_TRIPLE_BUFFER=1' > ~/Desktop/kwin.sh
+  283  cp ~/Desktop/kwin.sh kwin.sh
+  284  sudo cp ~/Desktop/kwin.sh kwin.sh
+  285  sudo add-apt-repository ppa:colingille/freshlight
+  286  sudo apt update
+  287  sudo apt install winusb
+  288  sudo apt-get install winusb
+  289  sudo add-apt-repository --remove ppa:colingille/freshlight
+  290  sudo add-apt-repository ppa:nilarimogard/webupd8
+  291  sudo apt update
+  292  sudo apt install woeusb 
+  293  reboot
+  294  cd Desktop/
+  295  echo 'options nvidia_drm modeset=1' > zz-nvidia-tearing.conf
+  296  sudo cp zz-nvidia-tearing.conf /etc/modprobe.d/zz-nvidia-tearing.conf
+  297  sudo update-initramfs -u
+  298  sudo reboot
+  299  woeusb
+  300  reboot
+  301  cd OSLabs/OSLabs/week9/
+  302  ls
+  303  gcc ex1.c -o ex1
+  304  ./ex1
+  305  ./ex1 10
+  306  ls
+  307  ./ex1 10
+  308  ./ex1 1
+  309  gcc ex1.c -o ex1
+  310  ./ex1 10
+  311  gcc ex1.c -o ex1
+  312  ./ex1 10
+  313  gcc ex1.c -o ex1
+  314  ./ex1 10
+  315  gcc ex1.c -o ex1
+  316  ./ex1 10
+  317  gcc ex1.c -o ex1
+  318  ./ex1 10
+  319  gcc ex1.c -o ex1
+  320  ./ex1 10
+  321  gcc ex1.c -o ex1
+  322  ./ex1 10
+  323  gcc ex1.c -o ex1
+  324  ./ex1 10
+  325  gcc ex1.c -o ex1
+  326  ./ex1 10
+  327  gcc ex1.c -o ex1
+  328  ./ex1 10
+  329  gcc ex1.c -o ex1
+  330  ./ex1 10
+  331  gcc ex1.c -o ex1
+  332  ./ex1 10
+  333  gcc ex1.c -o ex1
+  334  ./ex1 10
+  335  gcc ex1.c -o ex1
+  336  ./ex1 10
+  337  ./ex1 50
+  338  ./ex1 100
+  339  gcc ex2.c -o ex2
+  340  ./ex2 10
+  341  ./ex2 50
+  342  ./ex2 100
+  343  gcc ex2.c -o ex2
+  344  ./ex2 100
+  345  ./ex2 10
+  346  ./ex2 1000
+  347  ./ex2 10000
+  348  ./ex2 5
+  349  ./ex2 1
+  350  ./ex2 5
+  351  ./ex2 1
+  352  ./ex2 10000
+  353  ./ex1 1
+  354  ./ex1 2
+  355  ./ex1 5
+  356  ./ex1 10
+  357  ./ex1 20
+  358  ./ex1 30
+  359  ./ex1 1000
+  360  cd ..
+  361  git add week9
+  362  git commit -m "Added week9"
+  363  git push
+  364  shutdown
+  365  man shutdown 
+  366  cd OSLabs/OSLabs/week10/
+  367  find -links 2
+  368  cd tmp/
+  369  find -links 2
+  370  find -links >=2
+  371  find -links '^(?:[2-9]|\d\d\d*)$'
+  372  find -links ^(?:[2-9]|\d\d\d*)$
+  373  find -links +1
+  374  nano program.sh
+  375  gedit
+  376  subl program.sh
+  377  ls
+  378  ./program.sh
+  379  chmod a=rwx program.sh 
+  380  ./program.sh
+  381  rebbot
+  382  reboot
+  383  cd OSLabs/OSLabs/
+  384  mkdir week10
+  385  cd week10
+  386  echo "" > ex1.txt
+  387  echo "link-1" > ex1_link_1.txt
+  388  echo "link-2" > ex1_link_2.txt
+  389  ln ex1.txt ex1_link_1.txt 
+  390  rm ex1_link_1.txt 
+  391  ln ex1.txt ex1_link_1.txt 
+  392  ls -i ex1.txt 
+  393  ls -i ex1_link_.txt 
+  394  ls -i ex1_link_1.txt 
+  395  rm ex1_link_2.txt 
+  396  ln ex1.txt ex1_link_2.txt 
+  397  ln ../week1/ex1.txt ex2.txt
+  398  ls -i ex2.txt 
+  399  find -inum 5776072
+  400  cd ..
+  401  find -inum 5776072 -exec rm{} \;
+  402  find -inum 5776072 -exec rm{ } \;
+  403  find -inum 5776072 -exec rm{ }\;
+  404  find -inum 5776072 -exec rm{ } \ ;
+  405  find -inum 5776072 -exec rm{} \;
+  406  find -inum 5776072 && -exec rm{} \;
+  407  find -inum 5776072 -exec rm{} \;
+  408  find -inum 5776072 -exec rm{}\;
+  409  find -inum 5776072 -exec rm{} 
+  410  find -inum 5776072 -exec rm{};
+  411  find -inum 5776072 -exec rm{} \;
+  412  find -inum 5776072 -exec rm{} \; --escape
+  413  find -inum 5776072 -exec rm{} --escape \;
+  414  find -inum 5776072 -exec rm{} \;
+  415  find -inum 5776072 -exec rm {} \;
+  416  cd week10
+  417  stat ex3.txt 
+  418  chmod -rw ex3.txt 
+  419  chmod rw- ex3.txt 
+  420  chmod u=rw- ex3.txt 
+  421  chmod o=rw- ex3.txt 
+  422  chmod g=rw- ex3.txt 
+  423  chmod a=rw- ex3.txt 
+  424  stat ex3.txt 
+  425  mkdir tmp
+  426  cd tmp/
+  427  echo "" > file1 && file2
+  428  echo "" > file2
+  429  ls
+  430  ln file1 link
+  431  ls
+  432  cd ..
+  433  man find
+  434  -r
+  435  uname -r
+  436  sudo add-apt-repository  ppa:teejee2008/ppa
+  437  sudo apt update
+  438  sudo apt install ukuu
+  439  ukuu
+  440  reboot
+  441  uname -r
+  442  status
+  443  scanners
+  444  scanner
+  445  sensor
+  446  sensors
+  447  ubuntu-drivers 
+  448  ubuntu-drivers nvidia
+  449  ubuntu-drivers -h
+  450  ubuntu-drivers list
+  451  ubuntu-drivers devices
+  452  ubuntu-drivers autoinstall
+  453  sudo ubuntu-drivers autoinstall
+  454  sudo apt autoremove 
+  455  sudo ubuntu-drivers autoinstall
+  456  sudo apt update
+  457  apt list --upgradeable
+  458  sudo apt upgrade
+  459  cd /
+  460  cd ~
+  461  ls
+  462  cd Documents/
+  463  mkdir Project2
+  464  cd Project
+  465  cd Project2
+  466  ls
+  467  npm i -g gulp
+  468  sudo apt install npm
+  469  npm i -g gulp
+  470  sudo npm i -g gulp
+  471  npm init
+  472  rm package.json 
+  473  cd Documents/Project2/
+  474  npm init
+  475  clear
+  476  npm i --save-dev gulp 
+  477  gulp
+  478  gulp test
+  479  npm install browser-sync --save-dev
+  480  gulp server
+  481  npm i gulp-sass --save-dev
+  482  gulp
+  483  npm i --save-dev gulp-concat-css
+  484  gulp
+  485  npm i gulp-ftp --save-dev
+  486  logout
+  487  exit
+  488  gulp ftp
+  489  sudo apt install plasma-sdk
+  490  plasma-sdk
+  491  plasmathemeexplorer 
+  492  reboot
+  493  pip install numpy
+  494  pip install pyqtgraph
+  495  pip install PyQt5
+  496  ./pycharm.sh
+  497  sudo apt install python-distutils-extra 
+  498  ./pycharm.sh
+  499  sudo add-apt-repository ppa:jonathonf/python-3.6
+  500  sudo apt update
+  501  apt --upgradable
+  502  sudo apt list --upgradable
+  503  sudo apt install python3.6 python3.6-dev 
+  504  ./pycharm.sh
+  505  sudo apt-get install python3-distutils
+  506  ./pycharm.sh
+  507  sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
+  508  umake ide pycharm
+  509  sudo apt update
+  510  sudo apt install ubuntu-make
+  511  umake ide pycharm
+  512  pycharm 
+  513  pycharm
+  514  cd pycharm/
+  515  ls
+  516  ./bin/pycharm.sh 
+  517  umake -r ide pycharm
+  518  umake ide pycharm-professional 
+  519  pycharm
+  520  reboot
+  521  ls
+  522  git init
+  523  git init -t
+  524  git init -r
+  525  sudo ./msi-keyboard-gui 
+  526  ls
+  527  cd Documents/Project2/
+  528  ls
+  529  gulp
+  530  reboot
+  531  man fstat
+  532  man lseek
+  533  man fopen
+  534  man open
+  535  man fopen
+  536  man truncate
+  537  man truncate(2)
+  538  man truncate 2
+  539  man man
+  540  man truncate -Z 2
+  541  man truncate2
+  542  man truncate 
+  543  man 2 truncate
+  544  man 3 chmod
+  545  man 2 chmod
+  546  echo "" > ex1.txt
+  547  gcc ex1.c -o ex1
+  548  clr
+  549  clear
+  550  gcc ex1.c -o ex1
+  551  ./ex1
+  552  gcc ex1.c -o ex1
+  553  ./ex1
+  554  gcc ex1.c -o ex1
+  555  ./ex1
+  556  gcc ex1.c -o ex1
+  557  ./ex1
+  558  gcc ex1.c -o ex1
+  559  ./ex1
+  560  gcc ex1.c -o ex1
+  561  ./ex1
+  562  gcc ex1.c -o ex1
+  563  ./ex1
+  564  gcc ex1.c -o ex1
+  565  ./ex1
+  566  gcc ex1.c -o ex1
+  567  ./ex1
+  568  gcc ex1.c -o ex1
+  569  ./ex1
+  570  gcc ex1.c -o ex1
+  571  ./ex1
+  572  gcc ex1.c -o ex1
+  573  ./ex1
+  574  gcc ex1.c -o ex1
+  575  ./ex1
+  576  gcc ex1.c -o ex1
+  577  ./ex1
+  578  gcc ex1.c -o ex1
+  579  ./ex1
+  580  gcc ex1.c -o ex1
+  581  ./ex1
+  582  gcc ex2.c -o ex2
+  583  ./ex2
+  584  gcc ex2.c -o ex2
+  585  ./ex2
+  586  gcc ex2.c -o ex2
+  587  ./ex2
+  588  gcc ex2.c -o ex2
+  589  ./ex2
+  590  gcc ex3.c -o ex3
+  591  ./ex3
+  592  gcc ex3.c -o ex3
+  593  ./ex3
+  594  gcc ex4.c -o ex4
+  595  ./ex4
+  596  gcc ex4.c -o ex4
+  597  ./ex4
+  598  gcc ex4.c -o ex4
+  599  ./ex4
+  600  gcc check.c -o ch
+  601  gcc ex4.c -o ex4
+  602  ./ex4
+  603  gcc ex4.c -o ex4
+  604  ./ex4
+  605  gcc ex4.c -o ex4
+  606  ./ex4
+  607  gcc ex4.c -o ex4
+  608  ./ex4
+  609  gcc ex4.c -o ex4
+  610  ./ex4
+  611  gcc ex4.c -o ex4
+  612  ./ex4
+  613  git add week11
+  614  git commit -m "Added week 11"
+  615  git push
+  616  git add week11
+  617  git commit -m "Added ex3 in week 11"
+  618  git push
+  619  reboot
+  620  cd ..
+  621  gulp
+  622  reboot
+  623  cat /proc/cpuinfo 
+  624  cat /proc/gpuinfo
+  625  ls /
+  626  cd dev
+  627  cd /dev
+  628  ls
+  629  clean
+  630  clear
+  631  cat /dev/audio
+  632  cd ..
+  633  cat /dev/snd
+  634  cd `
+  635  cd ~
+  636  cd Documents/
+  637  cat /dev/snd > test.au
+  638  cat /dev/random 
+  639  echo hi > /dev/full
+  640  echo hi > /dev/tty
+  641  reboot
+  642  man 2 open
+  643  man 2 read
+  644  man memcpy
+  645  man fopen
+  646  man fgets
+  647  man fprintf
+  648  man fgets
+  649  tee
+  650  ./ex2
+  651  history > test.txt
